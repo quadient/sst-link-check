@@ -1,0 +1,8 @@
+{
+  "extends": ["@tsconfig/strictest/tsconfig.json","@tsconfig/node20/tsconfig.json"],
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": false,
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+  }
+}
